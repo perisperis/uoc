@@ -7,8 +7,10 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "npm run build && gh-pages -d dist"
   },
+  "homepage": "https://perisperis.github.io/uoc",
   "private": true,
   "dependencies": {
     "@angular/animations": "~13.1.1",
